@@ -1,4 +1,4 @@
-def saludar():
-    print("Hola mundo")
+def saludar(nombre="mundo"):
+    print(f"Hola {nombre}")
 
-saludar()
+saludar("Franklin")
